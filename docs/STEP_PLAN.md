@@ -27,6 +27,14 @@
 - MSW skill은 STEP 7 계약 보강과 STEP 13 규격 검증 가드레일로 본다.
 - 자세한 설명은 `reference/tool-boundaries.md`를 참조한다.
 
+## 공통 운영 원칙
+
+- 픽셀 단위 수작업 보정과 후작업은 기본 운영 범위에서 제외한다.
+- 실패 결과는 사람이 손으로 고쳐 살리지 않고, 실패 코드와 제외 사유를 남긴다.
+- 자동화 결과는 `PASS`, `RETRY_AUTO`, `NEEDS_NEW_ANCHOR`, `OUT_OF_SCOPE`로 분류한다.
+- 고변형 포즈는 필요한 앵커와 계약 조건이 충족된 경우에만 처리한다.
+- 자세한 예외 처리 기준은 `reference/tool-boundaries.md`가 아니라 이 문서의 운영 원칙과 각 Step 문서의 짧은 연결 문구만 따른다.
+
 ## 13단계 마스터 플랜
 
 | Step | 단계 목적 | 핵심 산출물 | 현재 상태 | 다음 연결 |
@@ -38,11 +46,11 @@
 | STEP 5 | master anchor와 진단 흐름 확정 | anchor, preview, ComfyUI 진단 산출물 | 완료 | STEP 6 |
 | STEP 6-A | reference sample 원본 구조 정리 | `sample_info.json`, extracted refs | 완료 | STEP 6-B |
 | STEP 6-B | reference sample을 정규화된 layer/mask로 변환 | `normalized_layers/`, `masks/`, normalization report | 완료 | STEP 7 |
-| STEP 7 | reference profile과 contract 생성 | `outputs/reference_profiles/`, `data/msw/contracts/` | 준비 완료 / 실행 전 | STEP 8 |
-| STEP 8 | 저변형 프레임 우선 전파 | propagated frame set | 대기 | STEP 9 |
+| STEP 7 | reference profile와 contract 생성 | `outputs/reference_profiles/`, `data/msw/contracts/` | 준비 완료 / 실행 전 | STEP 8 |
+| STEP 8 | 저변형 프레임 우선 전파 | propagated frame set | 대기, 자동 전파만 허용 | STEP 9 |
 | STEP 9 | 전파 결과를 레이어 단위로 다시 분리 | separated layer outputs | 대기 | STEP 10 |
-| STEP 10 | 실패 레이어만 국소 보정 | pinpoint inpainting outputs | 대기 | STEP 11 |
-| STEP 11 | 자동 QA로 흔들림과 오염 검출 | QA report, retry flags | 대기 | STEP 12 |
+| STEP 10 | 실패 레이어만 국소 보정 | pinpoint inpainting outputs | 대기, 수작업 보정 배제 | STEP 11 |
+| STEP 11 | 자동 QA로 흔들림과 오염 검출 | QA report, retry flags | 대기, 후작업으로 살리지 않음 | STEP 12 |
 | STEP 12 | 최종 조립과 결과물 정리 | final grids, build report | 대기 | STEP 13 |
 | STEP 13 | MSW 등록 준비 패키징 | package folder, manifest, checklist | 대기 | 등록 검증 |
 
@@ -52,11 +60,11 @@
 - 직전 완료 단계: `STEP 6-B`
 - 현재 핵심 작업: reference profile / contract 생성 준비
 
-## STEP 7이 중요한 이유
+## STEP별 짧은 운영 메모
 
-- STEP 7은 STEP 8~12가 공통으로 읽는 기준 메타데이터를 만든다.
-- 여기서 `bbox`, `mask`, `z-order`, `body offset`, `slot contract`가 정리되지 않으면 뒤 단계는 자동화 품질이 떨어진다.
-- 즉, STEP 7은 이미지 생성 단계가 아니라 자동화 기준을 잠그는 단계다.
+- STEP 8: 고변형 포즈는 조건 충족 시에만 자동 전파한다.
+- STEP 10: 실패 레이어는 수작업 수정 없이 자동 재시도 후보, 앵커 부족, 범위 외 상태로만 분류한다.
+- STEP 11: 자동 QA 실패 결과는 후작업으로 살리지 않고 실패 코드와 함께 제외한다.
 
 ## 현재 기준 산출물
 
