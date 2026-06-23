@@ -1,0 +1,45 @@
+{
+  "name": "dot-asset-tool",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "verify:psd": "python scripts/verify_msw_psd_template.py",
+    "verify:psd:write": "python scripts/verify_msw_psd_template.py --write-probe",
+    "verify:psd:clean": "python scripts/verify_msw_psd_template.py --clean-probes",
+    "verify:phase6-ready": "python scripts/verify_msw_psd_template.py --phase6-ready",
+    "verify:project-config": "node scripts/verify_project_config_contract.mjs",
+    "verify:sample-psd-contract": "python scripts/verify_generate_sample_psd_contract.py",
+    "sample:psd": "python scripts/generate_sample_psd.py",
+    "motion:draft": "python scripts/prepare_motion_draft_experiment.py",
+    "phase10:normalize": "python scripts/prepare_phase10_sample_data.py",
+    "phase11:extract": "python scripts/prepare_phase11_part_extraction.py",
+    "phase11:review-sheets": "python scripts/generate_phase11_review_sheets.py",
+    "phase12:mvp": "python scripts/prepare_phase12_mvp_experiment.py",
+    "phase12:part-swap": "python scripts/prepare_phase12_part_swap_mvp.py"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/jszip": "^3.4.0",
+    "@types/node": "^24.12.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.59.2",
+    "vite": "^8.0.12"
+  }
+}

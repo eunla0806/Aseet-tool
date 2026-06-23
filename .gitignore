@@ -1,0 +1,26 @@
+# dependency / build output
+**/node_modules/
+**/dist/
+**/build/
+**/.next/
+**/.vite/
+**/coverage/
+**/__pycache__/
+*.pyc
+.playwright-mcp/
+outputs/
+comfy ui/
+data/
+
+# env / secrets
+.env
+.env.*
+token.txt
+*.key
+*.pem
+
+# logs / binaries / windows metadata
+*.log
+*.exe
+Thumbs.db
+desktop.ini

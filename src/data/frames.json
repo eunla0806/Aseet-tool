@@ -1,0 +1,817 @@
+{
+  "actions": {
+    "alert": {
+      "name": "alert",
+      "displayName": "경계 상태",
+      "frames": [
+        {
+          "fileName": "alert_0.png",
+          "index": 0,
+          "path": "/template/body template/alert_0.png"
+        },
+        {
+          "fileName": "alert_1.png",
+          "index": 1,
+          "path": "/template/body template/alert_1.png"
+        },
+        {
+          "fileName": "alert_2.png",
+          "index": 2,
+          "path": "/template/body template/alert_2.png"
+        },
+        {
+          "fileName": "alert_3.png",
+          "index": 3,
+          "path": "/template/body template/alert_3.png"
+        }
+      ]
+    },
+    "fly": {
+      "name": "fly",
+      "displayName": "비행",
+      "frames": [
+        {
+          "fileName": "fly_0.png",
+          "index": 0,
+          "path": "/template/body template/fly_0.png"
+        },
+        {
+          "fileName": "fly_1.png",
+          "index": 1,
+          "path": "/template/body template/fly_1.png"
+        },
+        {
+          "fileName": "fly_2.png",
+          "index": 2,
+          "path": "/template/body template/fly_2.png"
+        }
+      ]
+    },
+    "jump": {
+      "name": "jump",
+      "displayName": "점프",
+      "frames": [
+        {
+          "fileName": "jump_0.png",
+          "index": 0,
+          "path": "/template/body template/jump_0.png"
+        },
+        {
+          "fileName": "jump_1.png",
+          "index": 1,
+          "path": "/template/body template/jump_1.png"
+        }
+      ]
+    },
+    "ladder": {
+      "name": "ladder",
+      "displayName": "사다리 타기",
+      "frames": [
+        {
+          "fileName": "ladder_0.png",
+          "index": 0,
+          "path": "/template/body template/ladder_0.png"
+        },
+        {
+          "fileName": "ladder_1.png",
+          "index": 1,
+          "path": "/template/body template/ladder_1.png"
+        },
+        {
+          "fileName": "ladder_2.png",
+          "index": 2,
+          "path": "/template/body template/ladder_2.png"
+        }
+      ]
+    },
+    "proneStab": {
+      "name": "proneStab",
+      "displayName": "엎드려 찌르기",
+      "frames": [
+        {
+          "fileName": "proneStab_0.png",
+          "index": 0,
+          "path": "/template/body template/proneStab_0.png"
+        },
+        {
+          "fileName": "proneStab_1.png",
+          "index": 1,
+          "path": "/template/body template/proneStab_1.png"
+        },
+        {
+          "fileName": "proneStab_2.png",
+          "index": 2,
+          "path": "/template/body template/proneStab_2.png"
+        }
+      ]
+    },
+    "prone": {
+      "name": "prone",
+      "displayName": "엎드리기",
+      "frames": [
+        {
+          "fileName": "prone_0.png",
+          "index": 0,
+          "path": "/template/body template/prone_0.png"
+        },
+        {
+          "fileName": "prone_1.png",
+          "index": 1,
+          "path": "/template/body template/prone_1.png"
+        }
+      ]
+    },
+    "rope": {
+      "name": "rope",
+      "displayName": "로프 타기",
+      "frames": [
+        {
+          "fileName": "rope_0.png",
+          "index": 0,
+          "path": "/template/body template/rope_0.png"
+        },
+        {
+          "fileName": "rope_1.png",
+          "index": 1,
+          "path": "/template/body template/rope_1.png"
+        },
+        {
+          "fileName": "rope_2.png",
+          "index": 2,
+          "path": "/template/body template/rope_2.png"
+        }
+      ]
+    },
+    "shoot1": {
+      "name": "shoot1",
+      "displayName": "사격 1",
+      "frames": [
+        {
+          "fileName": "shoot1_0.png",
+          "index": 0,
+          "path": "/template/body template/shoot1_0.png"
+        },
+        {
+          "fileName": "shoot1_1.png",
+          "index": 1,
+          "path": "/template/body template/shoot1_1.png"
+        },
+        {
+          "fileName": "shoot1_2.png",
+          "index": 2,
+          "path": "/template/body template/shoot1_2.png"
+        },
+        {
+          "fileName": "shoot1_3.png",
+          "index": 3,
+          "path": "/template/body template/shoot1_3.png"
+        }
+      ]
+    },
+    "shoot2": {
+      "name": "shoot2",
+      "displayName": "사격 2",
+      "frames": [
+        {
+          "fileName": "shoot2_0.png",
+          "index": 0,
+          "path": "/template/body template/shoot2_0.png"
+        },
+        {
+          "fileName": "shoot2_1.png",
+          "index": 1,
+          "path": "/template/body template/shoot2_1.png"
+        },
+        {
+          "fileName": "shoot2_2.png",
+          "index": 2,
+          "path": "/template/body template/shoot2_2.png"
+        },
+        {
+          "fileName": "shoot2_3.png",
+          "index": 3,
+          "path": "/template/body template/shoot2_3.png"
+        },
+        {
+          "fileName": "shoot2_4.png",
+          "index": 4,
+          "path": "/template/body template/shoot2_4.png"
+        },
+        {
+          "fileName": "shoot2_5.png",
+          "index": 5,
+          "path": "/template/body template/shoot2_5.png"
+        }
+      ]
+    },
+    "shootF": {
+      "name": "shootF",
+      "displayName": "사격 F",
+      "frames": [
+        {
+          "fileName": "shootF_0.png",
+          "index": 0,
+          "path": "/template/body template/shootF_0.png"
+        },
+        {
+          "fileName": "shootF_1.png",
+          "index": 1,
+          "path": "/template/body template/shootF_1.png"
+        },
+        {
+          "fileName": "shootF_2.png",
+          "index": 2,
+          "path": "/template/body template/shootF_2.png"
+        },
+        {
+          "fileName": "shootF_3.png",
+          "index": 3,
+          "path": "/template/body template/shootF_3.png"
+        }
+      ]
+    },
+    "sit": {
+      "name": "sit",
+      "displayName": "앉기",
+      "frames": [
+        {
+          "fileName": "sit_0.png",
+          "index": 0,
+          "path": "/template/body template/sit_0.png"
+        },
+        {
+          "fileName": "sit_1.png",
+          "index": 1,
+          "path": "/template/body template/sit_1.png"
+        }
+      ]
+    },
+    "stabO1": {
+      "name": "stabO1",
+      "displayName": "찌르기 O1",
+      "frames": [
+        {
+          "fileName": "stabO1_0.png",
+          "index": 0,
+          "path": "/template/body template/stabO1_0.png"
+        },
+        {
+          "fileName": "stabO1_1.png",
+          "index": 1,
+          "path": "/template/body template/stabO1_1.png"
+        },
+        {
+          "fileName": "stabO1_2.png",
+          "index": 2,
+          "path": "/template/body template/stabO1_2.png"
+        }
+      ]
+    },
+    "stabO2": {
+      "name": "stabO2",
+      "displayName": "찌르기 O2",
+      "frames": [
+        {
+          "fileName": "stabO2_0.png",
+          "index": 0,
+          "path": "/template/body template/stabO2_0.png"
+        },
+        {
+          "fileName": "stabO2_1.png",
+          "index": 1,
+          "path": "/template/body template/stabO2_1.png"
+        },
+        {
+          "fileName": "stabO2_2.png",
+          "index": 2,
+          "path": "/template/body template/stabO2_2.png"
+        }
+      ]
+    },
+    "stabOF": {
+      "name": "stabOF",
+      "displayName": "찌르기 OF",
+      "frames": [
+        {
+          "fileName": "stabOF_0.png",
+          "index": 0,
+          "path": "/template/body template/stabOF_0.png"
+        },
+        {
+          "fileName": "stabOF_1.png",
+          "index": 1,
+          "path": "/template/body template/stabOF_1.png"
+        },
+        {
+          "fileName": "stabOF_2.png",
+          "index": 2,
+          "path": "/template/body template/stabOF_2.png"
+        },
+        {
+          "fileName": "stabOF_3.png",
+          "index": 3,
+          "path": "/template/body template/stabOF_3.png"
+        }
+      ]
+    },
+    "stabT1": {
+      "name": "stabT1",
+      "displayName": "찌르기 T1",
+      "frames": [
+        {
+          "fileName": "stabT1_0.png",
+          "index": 0,
+          "path": "/template/body template/stabT1_0.png"
+        },
+        {
+          "fileName": "stabT1_1.png",
+          "index": 1,
+          "path": "/template/body template/stabT1_1.png"
+        },
+        {
+          "fileName": "stabT1_2.png",
+          "index": 2,
+          "path": "/template/body template/stabT1_2.png"
+        },
+        {
+          "fileName": "stabT1_3.png",
+          "index": 3,
+          "path": "/template/body template/stabT1_3.png"
+        }
+      ]
+    },
+    "stabT2": {
+      "name": "stabT2",
+      "displayName": "찌르기 T2",
+      "frames": [
+        {
+          "fileName": "stabT2_0.png",
+          "index": 0,
+          "path": "/template/body template/stabT2_0.png"
+        },
+        {
+          "fileName": "stabT2_1.png",
+          "index": 1,
+          "path": "/template/body template/stabT2_1.png"
+        },
+        {
+          "fileName": "stabT2_2.png",
+          "index": 2,
+          "path": "/template/body template/stabT2_2.png"
+        },
+        {
+          "fileName": "stabT2_3.png",
+          "index": 3,
+          "path": "/template/body template/stabT2_3.png"
+        }
+      ]
+    },
+    "stabTF": {
+      "name": "stabTF",
+      "displayName": "찌르기 TF",
+      "frames": [
+        {
+          "fileName": "stabTF_0.png",
+          "index": 0,
+          "path": "/template/body template/stabTF_0.png"
+        },
+        {
+          "fileName": "stabTF_1.png",
+          "index": 1,
+          "path": "/template/body template/stabTF_1.png"
+        },
+        {
+          "fileName": "stabTF_2.png",
+          "index": 2,
+          "path": "/template/body template/stabTF_2.png"
+        },
+        {
+          "fileName": "stabTF_3.png",
+          "index": 3,
+          "path": "/template/body template/stabTF_3.png"
+        },
+        {
+          "fileName": "stabTF_4.png",
+          "index": 4,
+          "path": "/template/body template/stabTF_4.png"
+        }
+      ]
+    },
+    "stand1": {
+      "name": "stand1",
+      "displayName": "대기 자세 1",
+      "frames": [
+        {
+          "fileName": "stand1_0.png",
+          "index": 0,
+          "path": "/template/body template/stand1_0.png"
+        },
+        {
+          "fileName": "stand1_1.png",
+          "index": 1,
+          "path": "/template/body template/stand1_1.png"
+        },
+        {
+          "fileName": "stand1_2.png",
+          "index": 2,
+          "path": "/template/body template/stand1_2.png"
+        },
+        {
+          "fileName": "stand1_3.png",
+          "index": 3,
+          "path": "/template/body template/stand1_3.png"
+        }
+      ]
+    },
+    "stand2": {
+      "name": "stand2",
+      "displayName": "대기 자세 2",
+      "frames": [
+        {
+          "fileName": "stand2_0.png",
+          "index": 0,
+          "path": "/template/body template/stand2_0.png"
+        },
+        {
+          "fileName": "stand2_1.png",
+          "index": 1,
+          "path": "/template/body template/stand2_1.png"
+        },
+        {
+          "fileName": "stand2_2.png",
+          "index": 2,
+          "path": "/template/body template/stand2_2.png"
+        },
+        {
+          "fileName": "stand2_3.png",
+          "index": 3,
+          "path": "/template/body template/stand2_3.png"
+        }
+      ]
+    },
+    "swingO1": {
+      "name": "swingO1",
+      "displayName": "베기 O1",
+      "frames": [
+        {
+          "fileName": "swingO1_0.png",
+          "index": 0,
+          "path": "/template/body template/swingO1_0.png"
+        },
+        {
+          "fileName": "swingO1_1.png",
+          "index": 1,
+          "path": "/template/body template/swingO1_1.png"
+        },
+        {
+          "fileName": "swingO1_2.png",
+          "index": 2,
+          "path": "/template/body template/swingO1_2.png"
+        },
+        {
+          "fileName": "swingO1_3.png",
+          "index": 3,
+          "path": "/template/body template/swingO1_3.png"
+        }
+      ]
+    },
+    "swingO2": {
+      "name": "swingO2",
+      "displayName": "베기 O2",
+      "frames": [
+        {
+          "fileName": "swingO2_0.png",
+          "index": 0,
+          "path": "/template/body template/swingO2_0.png"
+        },
+        {
+          "fileName": "swingO2_1.png",
+          "index": 1,
+          "path": "/template/body template/swingO2_1.png"
+        },
+        {
+          "fileName": "swingO2_2.png",
+          "index": 2,
+          "path": "/template/body template/swingO2_2.png"
+        },
+        {
+          "fileName": "swingO2_3.png",
+          "index": 3,
+          "path": "/template/body template/swingO2_3.png"
+        }
+      ]
+    },
+    "swingO3": {
+      "name": "swingO3",
+      "displayName": "베기 O3",
+      "frames": [
+        {
+          "fileName": "swingO3_0.png",
+          "index": 0,
+          "path": "/template/body template/swingO3_0.png"
+        },
+        {
+          "fileName": "swingO3_1.png",
+          "index": 1,
+          "path": "/template/body template/swingO3_1.png"
+        },
+        {
+          "fileName": "swingO3_2.png",
+          "index": 2,
+          "path": "/template/body template/swingO3_2.png"
+        },
+        {
+          "fileName": "swingO3_3.png",
+          "index": 3,
+          "path": "/template/body template/swingO3_3.png"
+        }
+      ]
+    },
+    "swingOF": {
+      "name": "swingOF",
+      "displayName": "베기 OF",
+      "frames": [
+        {
+          "fileName": "swingOF_0.png",
+          "index": 0,
+          "path": "/template/body template/swingOF_0.png"
+        },
+        {
+          "fileName": "swingOF_1.png",
+          "index": 1,
+          "path": "/template/body template/swingOF_1.png"
+        },
+        {
+          "fileName": "swingOF_2.png",
+          "index": 2,
+          "path": "/template/body template/swingOF_2.png"
+        },
+        {
+          "fileName": "swingOF_3.png",
+          "index": 3,
+          "path": "/template/body template/swingOF_3.png"
+        },
+        {
+          "fileName": "swingOF_4.png",
+          "index": 4,
+          "path": "/template/body template/swingOF_4.png"
+        }
+      ]
+    },
+    "swingP1": {
+      "name": "swingP1",
+      "displayName": "베기 P1",
+      "frames": [
+        {
+          "fileName": "swingP1_0.png",
+          "index": 0,
+          "path": "/template/body template/swingP1_0.png"
+        },
+        {
+          "fileName": "swingP1_1.png",
+          "index": 1,
+          "path": "/template/body template/swingP1_1.png"
+        },
+        {
+          "fileName": "swingP1_2.png",
+          "index": 2,
+          "path": "/template/body template/swingP1_2.png"
+        },
+        {
+          "fileName": "swingP1_3.png",
+          "index": 3,
+          "path": "/template/body template/swingP1_3.png"
+        }
+      ]
+    },
+    "swingP2": {
+      "name": "swingP2",
+      "displayName": "베기 P2",
+      "frames": [
+        {
+          "fileName": "swingP2_0.png",
+          "index": 0,
+          "path": "/template/body template/swingP2_0.png"
+        },
+        {
+          "fileName": "swingP2_1.png",
+          "index": 1,
+          "path": "/template/body template/swingP2_1.png"
+        },
+        {
+          "fileName": "swingP2_2.png",
+          "index": 2,
+          "path": "/template/body template/swingP2_2.png"
+        },
+        {
+          "fileName": "swingP2_3.png",
+          "index": 3,
+          "path": "/template/body template/swingP2_3.png"
+        }
+      ]
+    },
+    "swingPF": {
+      "name": "swingPF",
+      "displayName": "베기 PF",
+      "frames": [
+        {
+          "fileName": "swingPF_0.png",
+          "index": 0,
+          "path": "/template/body template/swingPF_0.png"
+        },
+        {
+          "fileName": "swingPF_1.png",
+          "index": 1,
+          "path": "/template/body template/swingPF_1.png"
+        },
+        {
+          "fileName": "swingPF_2.png",
+          "index": 2,
+          "path": "/template/body template/swingPF_2.png"
+        },
+        {
+          "fileName": "swingPF_3.png",
+          "index": 3,
+          "path": "/template/body template/swingPF_3.png"
+        },
+        {
+          "fileName": "swingPF_4.png",
+          "index": 4,
+          "path": "/template/body template/swingPF_4.png"
+        }
+      ]
+    },
+    "swingT1": {
+      "name": "swingT1",
+      "displayName": "베기 T1",
+      "frames": [
+        {
+          "fileName": "swingT1_0.png",
+          "index": 0,
+          "path": "/template/body template/swingT1_0.png"
+        },
+        {
+          "fileName": "swingT1_1.png",
+          "index": 1,
+          "path": "/template/body template/swingT1_1.png"
+        },
+        {
+          "fileName": "swingT1_2.png",
+          "index": 2,
+          "path": "/template/body template/swingT1_2.png"
+        },
+        {
+          "fileName": "swingT1_3.png",
+          "index": 3,
+          "path": "/template/body template/swingT1_3.png"
+        }
+      ]
+    },
+    "swingT2": {
+      "name": "swingT2",
+      "displayName": "베기 T2",
+      "frames": [
+        {
+          "fileName": "swingT2_0.png",
+          "index": 0,
+          "path": "/template/body template/swingT2_0.png"
+        },
+        {
+          "fileName": "swingT2_1.png",
+          "index": 1,
+          "path": "/template/body template/swingT2_1.png"
+        },
+        {
+          "fileName": "swingT2_2.png",
+          "index": 2,
+          "path": "/template/body template/swingT2_2.png"
+        },
+        {
+          "fileName": "swingT2_3.png",
+          "index": 3,
+          "path": "/template/body template/swingT2_3.png"
+        }
+      ]
+    },
+    "swingT3": {
+      "name": "swingT3",
+      "displayName": "베기 T3",
+      "frames": [
+        {
+          "fileName": "swingT3_0.png",
+          "index": 0,
+          "path": "/template/body template/swingT3_0.png"
+        },
+        {
+          "fileName": "swingT3_1.png",
+          "index": 1,
+          "path": "/template/body template/swingT3_1.png"
+        },
+        {
+          "fileName": "swingT3_2.png",
+          "index": 2,
+          "path": "/template/body template/swingT3_2.png"
+        },
+        {
+          "fileName": "swingT3_3.png",
+          "index": 3,
+          "path": "/template/body template/swingT3_3.png"
+        }
+      ]
+    },
+    "swingTF": {
+      "name": "swingTF",
+      "displayName": "베기 TF",
+      "frames": [
+        {
+          "fileName": "swingTF_0.png",
+          "index": 0,
+          "path": "/template/body template/swingTF_0.png"
+        },
+        {
+          "fileName": "swingTF_1.png",
+          "index": 1,
+          "path": "/template/body template/swingTF_1.png"
+        },
+        {
+          "fileName": "swingTF_2.png",
+          "index": 2,
+          "path": "/template/body template/swingTF_2.png"
+        },
+        {
+          "fileName": "swingTF_3.png",
+          "index": 3,
+          "path": "/template/body template/swingTF_3.png"
+        },
+        {
+          "fileName": "swingTF_4.png",
+          "index": 4,
+          "path": "/template/body template/swingTF_4.png"
+        }
+      ]
+    },
+    "walk1": {
+      "name": "walk1",
+      "displayName": "걷기 1",
+      "frames": [
+        {
+          "fileName": "walk1_0.png",
+          "index": 0,
+          "path": "/template/body template/walk1_0.png"
+        },
+        {
+          "fileName": "walk1_1.png",
+          "index": 1,
+          "path": "/template/body template/walk1_1.png"
+        },
+        {
+          "fileName": "walk1_2.png",
+          "index": 2,
+          "path": "/template/body template/walk1_2.png"
+        },
+        {
+          "fileName": "walk1_3.png",
+          "index": 3,
+          "path": "/template/body template/walk1_3.png"
+        },
+        {
+          "fileName": "walk1_4.png",
+          "index": 4,
+          "path": "/template/body template/walk1_4.png"
+        }
+      ]
+    },
+    "walk2": {
+      "name": "walk2",
+      "displayName": "걷기 2",
+      "frames": [
+        {
+          "fileName": "walk2_0.png",
+          "index": 0,
+          "path": "/template/body template/walk2_0.png"
+        },
+        {
+          "fileName": "walk2_1.png",
+          "index": 1,
+          "path": "/template/body template/walk2_1.png"
+        },
+        {
+          "fileName": "walk2_2.png",
+          "index": 2,
+          "path": "/template/body template/walk2_2.png"
+        },
+        {
+          "fileName": "walk2_3.png",
+          "index": 3,
+          "path": "/template/body template/walk2_3.png"
+        },
+        {
+          "fileName": "walk2_4.png",
+          "index": 4,
+          "path": "/template/body template/walk2_4.png"
+        }
+      ]
+    }
+  },
+  "totalFrameCount": 124
+}
