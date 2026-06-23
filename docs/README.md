@@ -1,73 +1,26 @@
-# Development Workflow
+# Docs Index
 
-## Context Files
+문서 기준은 아래 순서로 봅니다.
 
-### CURRENT_CONTEXT.md
+1. `STEP_PLAN.md` - 최상위 기준
+2. `CURRENT_CONTEXT.md` - 현재 상태
+3. `WORK_LOG.md` - 상세 로그
+4. `reference/tool-boundaries.md` - 도구 역할 분담
+5. `specs/` - 세부 규격
+6. `archive/` - 구버전 문서
 
-현재 진행 상태를 기록한다.
+## 바로 보는 문서
 
-포함 내용:
+- `STEP_PLAN.md`
+- `CURRENT_CONTEXT.md`
+- `WORK_LOG.md`
+- `reference/tool-boundaries.md`
+- `specs/APPENDIX_TECH.md`
 
-* 현재 진행 중인 Phase / Step
-* 최근 완료된 주요 작업
-* 다음 작업
-* 현재 우선순위
+## 정리 원칙
 
-현재 상태만 유지하며, 작업 이력을 누적하지 않는다.
-
----
-
-### WORK_LOG.md
-
-모든 작업 이력을 기록한다.
-
-작업 완료 후 반드시 업데이트한다.
-
-규칙:
-
-* 최신 로그를 문서 최상단에 추가한다.
-* 날짜와 시간을 반드시 기록한다.
-* 기존 로그는 삭제하지 않는다.
-* 완료한 작업을 기록한다.
-* 생성 파일과 수정 파일을 기록한다.
-* 결정사항을 기록한다.
-* 발견한 문제는 이슈로 기록한다.
-* 다음 작업을 기록한다.
-
-형식:
-
-## YYYY-MM-DD HH:mm
-
-### 완료
-
-### 생성 파일
-
-### 수정 파일
-
-### 결정사항
-
-### 이슈
-
-### 다음 작업
-
----
-
-## Agent Rules
-
-작업 시작 전:
-
-1. README.md 읽기
-2. CURRENT_CONTEXT.md 읽기
-3. 현재 Step 확인
-
-작업 완료 후:
-
-1. WORK_LOG.md 업데이트
-2. CURRENT_CONTEXT.md 현재 상태 반영
-3. 생성 파일 목록 확인
-
-중요:
-
-* 원본 파일 덮어쓰기 금지
-* 작업 범위를 임의로 확장하지 않기
-* CURRENT_CONTEXT.md와 WORK_LOG.md 내용이 충돌하지 않도록 유지
+- 같은 내용은 한 문서만 기준으로 둔다.
+- 진행 상태는 `CURRENT_CONTEXT.md`에만 짧게 적는다.
+- 작업 기록은 `WORK_LOG.md`에만 적는다.
+- `sprite-gen`과 MSW skill 역할 분담은 `reference/tool-boundaries.md` 한 곳에만 자세히 적는다.
+- 오래된 판단 문서는 `archive/`로 보낸다.
