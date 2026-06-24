@@ -1,0 +1,31 @@
+{
+  "result_status": "PASS",
+  "slotModes": {
+    "coat": {
+      "enabled": true,
+      "requiresValidation": true
+    },
+    "pants": {
+      "enabled": true,
+      "requiresValidation": true
+    },
+    "longcoat": {
+      "enabled": true,
+      "requiresValidation": true
+    }
+  },
+  "thumbnailPolicy": {
+    "thumbnailPrefixAllowedOnlyForPreview": true,
+    "thumbnailPrefixAllowedForEquipFields": false
+  },
+  "ruidPolicy": {
+    "plainRuidRequired": true,
+    "thumbnailRuidAllowedInFinalEquip": false,
+    "requiresValidation": true
+  },
+  "finalCheckRequired": true,
+  "sampleIds": [
+    "hoi_poi_tshirt_denim_skirt",
+    "pink_tanktop_tennis_skirt"
+  ]
+}

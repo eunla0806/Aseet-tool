@@ -1,0 +1,51 @@
+{
+  "result_status": "PASS",
+  "master_anchor": {
+    "frame_key": "stand1_0",
+    "status": "PASS",
+    "requiresValidation": true
+  },
+  "group_anchor_status": {
+    "G1": {
+      "anchor_frame": "stand1_0",
+      "status": "PASS"
+    },
+    "G2": {
+      "anchor_frame": "walk1_1",
+      "status": "PASS"
+    },
+    "G3": {
+      "anchor_frame": "jump_0",
+      "status": "PASS"
+    },
+    "G4": {
+      "anchor_frame": null,
+      "status": "NEEDS_NEW_ANCHOR"
+    },
+    "G5": {
+      "anchor_frame": null,
+      "status": "NEEDS_NEW_ANCHOR"
+    },
+    "G6": {
+      "anchor_frame": null,
+      "status": "NEEDS_NEW_ANCHOR"
+    },
+    "G7": {
+      "anchor_frame": null,
+      "status": "NEEDS_NEW_ANCHOR"
+    }
+  },
+  "sample_status_summary": {
+    "PASS": 2,
+    "RETRY_AUTO": 0,
+    "NEEDS_NEW_ANCHOR": 0,
+    "OUT_OF_SCOPE": 0
+  },
+  "needs_new_anchor_groups": [
+    "G4",
+    "G5",
+    "G6",
+    "G7"
+  ],
+  "manualPixelRetouchAllowed": false
+}

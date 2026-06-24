@@ -1,0 +1,35 @@
+{
+  "result_status": "PASS",
+  "baseFrame": "stand1_0",
+  "sourceMarkers": [
+    {
+      "sample_id": "hoi_poi_tshirt_denim_skirt",
+      "structure_type": "short_sleeve_skirt",
+      "category": "top_skirt_set"
+    },
+    {
+      "sample_id": "pink_tanktop_tennis_skirt",
+      "structure_type": "tanktop_skirt",
+      "category": "top_skirt_set"
+    }
+  ],
+  "styleKeywords": [
+    "msw_avatar_item_pipeline",
+    "reference_sample_locked",
+    "step7_contract_seed"
+  ],
+  "fixedColors": {
+    "requiresValidation": true,
+    "policy": "reference_sample_based",
+    "sampleIds": [
+      "hoi_poi_tshirt_denim_skirt",
+      "pink_tanktop_tennis_skirt"
+    ]
+  },
+  "fixedDetails": {
+    "requiresValidation": true,
+    "policy": "anchor_and_profile_locked",
+    "manualPixelRetouchAllowed": false
+  },
+  "requiresValidation": true
+}

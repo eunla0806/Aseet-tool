@@ -1,0 +1,1122 @@
+{
+  "result_status": "PASS",
+  "baseFrame": "stand1_0",
+  "frames": {
+    "alert_0": {
+      "frame_key": "alert_0",
+      "action_name": "alert",
+      "frame_index": 0,
+      "group": "G1",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "alert_1": {
+      "frame_key": "alert_1",
+      "action_name": "alert",
+      "frame_index": 1,
+      "group": "G1",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "alert_2": {
+      "frame_key": "alert_2",
+      "action_name": "alert",
+      "frame_index": 2,
+      "group": "G1",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "alert_3": {
+      "frame_key": "alert_3",
+      "action_name": "alert",
+      "frame_index": 3,
+      "group": "G1",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "fly_0": {
+      "frame_key": "fly_0",
+      "action_name": "fly",
+      "frame_index": 0,
+      "group": "G2",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "fly_1": {
+      "frame_key": "fly_1",
+      "action_name": "fly",
+      "frame_index": 1,
+      "group": "G2",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "fly_2": {
+      "frame_key": "fly_2",
+      "action_name": "fly",
+      "frame_index": 2,
+      "group": "G2",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "jump_0": {
+      "frame_key": "jump_0",
+      "action_name": "jump",
+      "frame_index": 0,
+      "group": "G3",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "jump_1": {
+      "frame_key": "jump_1",
+      "action_name": "jump",
+      "frame_index": 1,
+      "group": "G3",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "ladder_0": {
+      "frame_key": "ladder_0",
+      "action_name": "ladder",
+      "frame_index": 0,
+      "group": "G4",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "ladder_1": {
+      "frame_key": "ladder_1",
+      "action_name": "ladder",
+      "frame_index": 1,
+      "group": "G4",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "ladder_2": {
+      "frame_key": "ladder_2",
+      "action_name": "ladder",
+      "frame_index": 2,
+      "group": "G4",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "proneStab_0": {
+      "frame_key": "proneStab_0",
+      "action_name": "proneStab",
+      "frame_index": 0,
+      "group": "G5",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "proneStab_1": {
+      "frame_key": "proneStab_1",
+      "action_name": "proneStab",
+      "frame_index": 1,
+      "group": "G5",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "proneStab_2": {
+      "frame_key": "proneStab_2",
+      "action_name": "proneStab",
+      "frame_index": 2,
+      "group": "G5",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "prone_0": {
+      "frame_key": "prone_0",
+      "action_name": "prone",
+      "frame_index": 0,
+      "group": "G5",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "prone_1": {
+      "frame_key": "prone_1",
+      "action_name": "prone",
+      "frame_index": 1,
+      "group": "G5",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "rope_0": {
+      "frame_key": "rope_0",
+      "action_name": "rope",
+      "frame_index": 0,
+      "group": "G4",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "rope_1": {
+      "frame_key": "rope_1",
+      "action_name": "rope",
+      "frame_index": 1,
+      "group": "G4",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "rope_2": {
+      "frame_key": "rope_2",
+      "action_name": "rope",
+      "frame_index": 2,
+      "group": "G4",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "shoot1_0": {
+      "frame_key": "shoot1_0",
+      "action_name": "shoot1",
+      "frame_index": 0,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "shoot1_1": {
+      "frame_key": "shoot1_1",
+      "action_name": "shoot1",
+      "frame_index": 1,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "shoot1_2": {
+      "frame_key": "shoot1_2",
+      "action_name": "shoot1",
+      "frame_index": 2,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "shoot1_3": {
+      "frame_key": "shoot1_3",
+      "action_name": "shoot1",
+      "frame_index": 3,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "shoot2_0": {
+      "frame_key": "shoot2_0",
+      "action_name": "shoot2",
+      "frame_index": 0,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "shoot2_1": {
+      "frame_key": "shoot2_1",
+      "action_name": "shoot2",
+      "frame_index": 1,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "shoot2_2": {
+      "frame_key": "shoot2_2",
+      "action_name": "shoot2",
+      "frame_index": 2,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "shoot2_3": {
+      "frame_key": "shoot2_3",
+      "action_name": "shoot2",
+      "frame_index": 3,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "shoot2_4": {
+      "frame_key": "shoot2_4",
+      "action_name": "shoot2",
+      "frame_index": 4,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "shoot2_5": {
+      "frame_key": "shoot2_5",
+      "action_name": "shoot2",
+      "frame_index": 5,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "shootF_0": {
+      "frame_key": "shootF_0",
+      "action_name": "shootF",
+      "frame_index": 0,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "shootF_1": {
+      "frame_key": "shootF_1",
+      "action_name": "shootF",
+      "frame_index": 1,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "shootF_2": {
+      "frame_key": "shootF_2",
+      "action_name": "shootF",
+      "frame_index": 2,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "shootF_3": {
+      "frame_key": "shootF_3",
+      "action_name": "shootF",
+      "frame_index": 3,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "sit_0": {
+      "frame_key": "sit_0",
+      "action_name": "sit",
+      "frame_index": 0,
+      "group": "G3",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "sit_1": {
+      "frame_key": "sit_1",
+      "action_name": "sit",
+      "frame_index": 1,
+      "group": "G3",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabO1_0": {
+      "frame_key": "stabO1_0",
+      "action_name": "stabO1",
+      "frame_index": 0,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabO1_1": {
+      "frame_key": "stabO1_1",
+      "action_name": "stabO1",
+      "frame_index": 1,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabO1_2": {
+      "frame_key": "stabO1_2",
+      "action_name": "stabO1",
+      "frame_index": 2,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabO2_0": {
+      "frame_key": "stabO2_0",
+      "action_name": "stabO2",
+      "frame_index": 0,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabO2_1": {
+      "frame_key": "stabO2_1",
+      "action_name": "stabO2",
+      "frame_index": 1,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabO2_2": {
+      "frame_key": "stabO2_2",
+      "action_name": "stabO2",
+      "frame_index": 2,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabOF_0": {
+      "frame_key": "stabOF_0",
+      "action_name": "stabOF",
+      "frame_index": 0,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabOF_1": {
+      "frame_key": "stabOF_1",
+      "action_name": "stabOF",
+      "frame_index": 1,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabOF_2": {
+      "frame_key": "stabOF_2",
+      "action_name": "stabOF",
+      "frame_index": 2,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabOF_3": {
+      "frame_key": "stabOF_3",
+      "action_name": "stabOF",
+      "frame_index": 3,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabT1_0": {
+      "frame_key": "stabT1_0",
+      "action_name": "stabT1",
+      "frame_index": 0,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabT1_1": {
+      "frame_key": "stabT1_1",
+      "action_name": "stabT1",
+      "frame_index": 1,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabT1_2": {
+      "frame_key": "stabT1_2",
+      "action_name": "stabT1",
+      "frame_index": 2,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabT1_3": {
+      "frame_key": "stabT1_3",
+      "action_name": "stabT1",
+      "frame_index": 3,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabT2_0": {
+      "frame_key": "stabT2_0",
+      "action_name": "stabT2",
+      "frame_index": 0,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabT2_1": {
+      "frame_key": "stabT2_1",
+      "action_name": "stabT2",
+      "frame_index": 1,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabT2_2": {
+      "frame_key": "stabT2_2",
+      "action_name": "stabT2",
+      "frame_index": 2,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabT2_3": {
+      "frame_key": "stabT2_3",
+      "action_name": "stabT2",
+      "frame_index": 3,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabTF_0": {
+      "frame_key": "stabTF_0",
+      "action_name": "stabTF",
+      "frame_index": 0,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabTF_1": {
+      "frame_key": "stabTF_1",
+      "action_name": "stabTF",
+      "frame_index": 1,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabTF_2": {
+      "frame_key": "stabTF_2",
+      "action_name": "stabTF",
+      "frame_index": 2,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabTF_3": {
+      "frame_key": "stabTF_3",
+      "action_name": "stabTF",
+      "frame_index": 3,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stabTF_4": {
+      "frame_key": "stabTF_4",
+      "action_name": "stabTF",
+      "frame_index": 4,
+      "group": "G6",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "stand1_0": {
+      "frame_key": "stand1_0",
+      "action_name": "stand1",
+      "frame_index": 0,
+      "group": "G1",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "stand1_1": {
+      "frame_key": "stand1_1",
+      "action_name": "stand1",
+      "frame_index": 1,
+      "group": "G1",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "stand1_2": {
+      "frame_key": "stand1_2",
+      "action_name": "stand1",
+      "frame_index": 2,
+      "group": "G1",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "stand1_3": {
+      "frame_key": "stand1_3",
+      "action_name": "stand1",
+      "frame_index": 3,
+      "group": "G1",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "stand2_0": {
+      "frame_key": "stand2_0",
+      "action_name": "stand2",
+      "frame_index": 0,
+      "group": "G1",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "stand2_1": {
+      "frame_key": "stand2_1",
+      "action_name": "stand2",
+      "frame_index": 1,
+      "group": "G1",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "stand2_2": {
+      "frame_key": "stand2_2",
+      "action_name": "stand2",
+      "frame_index": 2,
+      "group": "G1",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "stand2_3": {
+      "frame_key": "stand2_3",
+      "action_name": "stand2",
+      "frame_index": 3,
+      "group": "G1",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingO1_0": {
+      "frame_key": "swingO1_0",
+      "action_name": "swingO1",
+      "frame_index": 0,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingO1_1": {
+      "frame_key": "swingO1_1",
+      "action_name": "swingO1",
+      "frame_index": 1,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingO1_2": {
+      "frame_key": "swingO1_2",
+      "action_name": "swingO1",
+      "frame_index": 2,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingO1_3": {
+      "frame_key": "swingO1_3",
+      "action_name": "swingO1",
+      "frame_index": 3,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingO2_0": {
+      "frame_key": "swingO2_0",
+      "action_name": "swingO2",
+      "frame_index": 0,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingO2_1": {
+      "frame_key": "swingO2_1",
+      "action_name": "swingO2",
+      "frame_index": 1,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingO2_2": {
+      "frame_key": "swingO2_2",
+      "action_name": "swingO2",
+      "frame_index": 2,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingO2_3": {
+      "frame_key": "swingO2_3",
+      "action_name": "swingO2",
+      "frame_index": 3,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingO3_0": {
+      "frame_key": "swingO3_0",
+      "action_name": "swingO3",
+      "frame_index": 0,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingO3_1": {
+      "frame_key": "swingO3_1",
+      "action_name": "swingO3",
+      "frame_index": 1,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingO3_2": {
+      "frame_key": "swingO3_2",
+      "action_name": "swingO3",
+      "frame_index": 2,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingO3_3": {
+      "frame_key": "swingO3_3",
+      "action_name": "swingO3",
+      "frame_index": 3,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingOF_0": {
+      "frame_key": "swingOF_0",
+      "action_name": "swingOF",
+      "frame_index": 0,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingOF_1": {
+      "frame_key": "swingOF_1",
+      "action_name": "swingOF",
+      "frame_index": 1,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingOF_2": {
+      "frame_key": "swingOF_2",
+      "action_name": "swingOF",
+      "frame_index": 2,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingOF_3": {
+      "frame_key": "swingOF_3",
+      "action_name": "swingOF",
+      "frame_index": 3,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingOF_4": {
+      "frame_key": "swingOF_4",
+      "action_name": "swingOF",
+      "frame_index": 4,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingP1_0": {
+      "frame_key": "swingP1_0",
+      "action_name": "swingP1",
+      "frame_index": 0,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingP1_1": {
+      "frame_key": "swingP1_1",
+      "action_name": "swingP1",
+      "frame_index": 1,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingP1_2": {
+      "frame_key": "swingP1_2",
+      "action_name": "swingP1",
+      "frame_index": 2,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingP1_3": {
+      "frame_key": "swingP1_3",
+      "action_name": "swingP1",
+      "frame_index": 3,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingP2_0": {
+      "frame_key": "swingP2_0",
+      "action_name": "swingP2",
+      "frame_index": 0,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingP2_1": {
+      "frame_key": "swingP2_1",
+      "action_name": "swingP2",
+      "frame_index": 1,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingP2_2": {
+      "frame_key": "swingP2_2",
+      "action_name": "swingP2",
+      "frame_index": 2,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingP2_3": {
+      "frame_key": "swingP2_3",
+      "action_name": "swingP2",
+      "frame_index": 3,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingPF_0": {
+      "frame_key": "swingPF_0",
+      "action_name": "swingPF",
+      "frame_index": 0,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingPF_1": {
+      "frame_key": "swingPF_1",
+      "action_name": "swingPF",
+      "frame_index": 1,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingPF_2": {
+      "frame_key": "swingPF_2",
+      "action_name": "swingPF",
+      "frame_index": 2,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingPF_3": {
+      "frame_key": "swingPF_3",
+      "action_name": "swingPF",
+      "frame_index": 3,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingPF_4": {
+      "frame_key": "swingPF_4",
+      "action_name": "swingPF",
+      "frame_index": 4,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingT1_0": {
+      "frame_key": "swingT1_0",
+      "action_name": "swingT1",
+      "frame_index": 0,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingT1_1": {
+      "frame_key": "swingT1_1",
+      "action_name": "swingT1",
+      "frame_index": 1,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingT1_2": {
+      "frame_key": "swingT1_2",
+      "action_name": "swingT1",
+      "frame_index": 2,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingT1_3": {
+      "frame_key": "swingT1_3",
+      "action_name": "swingT1",
+      "frame_index": 3,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingT2_0": {
+      "frame_key": "swingT2_0",
+      "action_name": "swingT2",
+      "frame_index": 0,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingT2_1": {
+      "frame_key": "swingT2_1",
+      "action_name": "swingT2",
+      "frame_index": 1,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingT2_2": {
+      "frame_key": "swingT2_2",
+      "action_name": "swingT2",
+      "frame_index": 2,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingT2_3": {
+      "frame_key": "swingT2_3",
+      "action_name": "swingT2",
+      "frame_index": 3,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingT3_0": {
+      "frame_key": "swingT3_0",
+      "action_name": "swingT3",
+      "frame_index": 0,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingT3_1": {
+      "frame_key": "swingT3_1",
+      "action_name": "swingT3",
+      "frame_index": 1,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingT3_2": {
+      "frame_key": "swingT3_2",
+      "action_name": "swingT3",
+      "frame_index": 2,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingT3_3": {
+      "frame_key": "swingT3_3",
+      "action_name": "swingT3",
+      "frame_index": 3,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingTF_0": {
+      "frame_key": "swingTF_0",
+      "action_name": "swingTF",
+      "frame_index": 0,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingTF_1": {
+      "frame_key": "swingTF_1",
+      "action_name": "swingTF",
+      "frame_index": 1,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingTF_2": {
+      "frame_key": "swingTF_2",
+      "action_name": "swingTF",
+      "frame_index": 2,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingTF_3": {
+      "frame_key": "swingTF_3",
+      "action_name": "swingTF",
+      "frame_index": 3,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "swingTF_4": {
+      "frame_key": "swingTF_4",
+      "action_name": "swingTF",
+      "frame_index": 4,
+      "group": "G7",
+      "propagation_mode": "conditional",
+      "propagation_status": "NEEDS_NEW_ANCHOR",
+      "manualPixelRetouchAllowed": false
+    },
+    "walk1_0": {
+      "frame_key": "walk1_0",
+      "action_name": "walk1",
+      "frame_index": 0,
+      "group": "G2",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "walk1_1": {
+      "frame_key": "walk1_1",
+      "action_name": "walk1",
+      "frame_index": 1,
+      "group": "G2",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "walk1_2": {
+      "frame_key": "walk1_2",
+      "action_name": "walk1",
+      "frame_index": 2,
+      "group": "G2",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "walk1_3": {
+      "frame_key": "walk1_3",
+      "action_name": "walk1",
+      "frame_index": 3,
+      "group": "G2",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "walk1_4": {
+      "frame_key": "walk1_4",
+      "action_name": "walk1",
+      "frame_index": 4,
+      "group": "G2",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "walk2_0": {
+      "frame_key": "walk2_0",
+      "action_name": "walk2",
+      "frame_index": 0,
+      "group": "G2",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "walk2_1": {
+      "frame_key": "walk2_1",
+      "action_name": "walk2",
+      "frame_index": 1,
+      "group": "G2",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "walk2_2": {
+      "frame_key": "walk2_2",
+      "action_name": "walk2",
+      "frame_index": 2,
+      "group": "G2",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "walk2_3": {
+      "frame_key": "walk2_3",
+      "action_name": "walk2",
+      "frame_index": 3,
+      "group": "G2",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    },
+    "walk2_4": {
+      "frame_key": "walk2_4",
+      "action_name": "walk2",
+      "frame_index": 4,
+      "group": "G2",
+      "propagation_mode": "auto",
+      "propagation_status": "PASS",
+      "manualPixelRetouchAllowed": false
+    }
+  }
+}

@@ -1,0 +1,2976 @@
+{
+  "result_status": "PASS",
+  "samples": {
+    "hoi_poi_tshirt_denim_skirt": {
+      "alert_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "alert",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "alert_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "alert",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "alert_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "alert",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "alert_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "alert",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "fly_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "fly",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "fly_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "fly",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "fly_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "fly",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "jump_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "jump",
+        "group": "G3",
+        "result_status": "PASS"
+      },
+      "jump_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "jump",
+        "group": "G3",
+        "result_status": "PASS"
+      },
+      "ladder_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "ladder",
+        "group": "G4",
+        "result_status": "PASS"
+      },
+      "ladder_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "ladder",
+        "group": "G4",
+        "result_status": "PASS"
+      },
+      "ladder_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "ladder",
+        "group": "G4",
+        "result_status": "PASS"
+      },
+      "proneStab_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "proneStab",
+        "group": "G5",
+        "result_status": "PASS"
+      },
+      "proneStab_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "proneStab",
+        "group": "G5",
+        "result_status": "PASS"
+      },
+      "proneStab_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "proneStab",
+        "group": "G5",
+        "result_status": "PASS"
+      },
+      "prone_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "prone",
+        "group": "G5",
+        "result_status": "PASS"
+      },
+      "prone_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "prone",
+        "group": "G5",
+        "result_status": "PASS"
+      },
+      "rope_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "rope",
+        "group": "G4",
+        "result_status": "PASS"
+      },
+      "rope_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "rope",
+        "group": "G4",
+        "result_status": "PASS"
+      },
+      "rope_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "rope",
+        "group": "G4",
+        "result_status": "PASS"
+      },
+      "shoot1_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot1_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot1_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot1_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot2_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot2_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot2_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot2_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot2_4": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot2_5": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shootF_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shootF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shootF_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shootF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shootF_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shootF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shootF_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shootF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "sit_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "sit",
+        "group": "G3",
+        "result_status": "PASS"
+      },
+      "sit_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "sit",
+        "group": "G3",
+        "result_status": "PASS"
+      },
+      "stabO1_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabO1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabO1_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabO1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabO1_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabO1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabO2_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabO2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabO2_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabO2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabO2_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabO2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabOF_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabOF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabOF_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabOF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabOF_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabOF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabOF_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabOF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabT1_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabT1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabT1_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabT1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabT1_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabT1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabT1_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabT1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabT2_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabT2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabT2_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabT2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabT2_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabT2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabT2_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabT2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabTF_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabTF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabTF_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabTF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabTF_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabTF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabTF_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabTF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabTF_4": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabTF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stand1_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stand1",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "stand1_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stand1",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "stand1_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stand1",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "stand1_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stand1",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "stand2_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stand2",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "stand2_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stand2",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "stand2_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stand2",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "stand2_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stand2",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "swingO1_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO1_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO1_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO1_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO2_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO2_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO2_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO2_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO3_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO3",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO3_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO3",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO3_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO3",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO3_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO3",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingOF_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingOF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingOF_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "swingOF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingOF_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingOF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingOF_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingOF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingOF_4": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingOF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingP1_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingP1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingP1_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingP1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingP1_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingP1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingP1_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingP1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingP2_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingP2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingP2_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingP2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingP2_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingP2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingP2_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingP2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingPF_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingPF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingPF_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingPF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingPF_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingPF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingPF_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingPF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingPF_4": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingPF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT1_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT1_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT1_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT1_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT2_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT2_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT2_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT2_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT3_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT3",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT3_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT3",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT3_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT3",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT3_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT3",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingTF_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "swingTF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingTF_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingTF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingTF_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingTF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingTF_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingTF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingTF_4": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "swingTF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "walk1_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk1",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk1_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk1",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk1_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk1",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk1_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk1",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk1_4": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk1",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk2_0": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk2",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk2_1": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk2",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk2_2": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk2",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk2_3": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk2",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk2_4": {
+        "sample_id": "hoi_poi_tshirt_denim_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk2",
+        "group": "G2",
+        "result_status": "PASS"
+      }
+    },
+    "pink_tanktop_tennis_skirt": {
+      "alert_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "alert",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "alert_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "alert",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "alert_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "alert",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "alert_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "alert",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "fly_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "fly",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "fly_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "fly",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "fly_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "fly",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "jump_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "jump",
+        "group": "G3",
+        "result_status": "PASS"
+      },
+      "jump_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "jump",
+        "group": "G3",
+        "result_status": "PASS"
+      },
+      "ladder_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "ladder",
+        "group": "G4",
+        "result_status": "PASS"
+      },
+      "ladder_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "ladder",
+        "group": "G4",
+        "result_status": "PASS"
+      },
+      "ladder_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "ladder",
+        "group": "G4",
+        "result_status": "PASS"
+      },
+      "proneStab_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "proneStab",
+        "group": "G5",
+        "result_status": "PASS"
+      },
+      "proneStab_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "proneStab",
+        "group": "G5",
+        "result_status": "PASS"
+      },
+      "proneStab_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "proneStab",
+        "group": "G5",
+        "result_status": "PASS"
+      },
+      "prone_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "prone",
+        "group": "G5",
+        "result_status": "PASS"
+      },
+      "prone_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "prone",
+        "group": "G5",
+        "result_status": "PASS"
+      },
+      "rope_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "rope",
+        "group": "G4",
+        "result_status": "PASS"
+      },
+      "rope_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "rope",
+        "group": "G4",
+        "result_status": "PASS"
+      },
+      "rope_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "rope",
+        "group": "G4",
+        "result_status": "PASS"
+      },
+      "shoot1_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot1_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot1_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot1_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot2_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot2_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot2_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot2_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot2_4": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shoot2_5": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shoot2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shootF_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shootF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shootF_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shootF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shootF_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shootF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "shootF_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "shootF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "sit_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "sit",
+        "group": "G3",
+        "result_status": "PASS"
+      },
+      "sit_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "sit",
+        "group": "G3",
+        "result_status": "PASS"
+      },
+      "stabO1_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabO1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabO1_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabO1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabO1_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabO1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabO2_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabO2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabO2_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabO2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabO2_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabO2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabOF_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabOF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabOF_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabOF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabOF_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabOF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabOF_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabOF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabT1_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabT1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabT1_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabT1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabT1_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabT1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabT1_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabT1",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabT2_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabT2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabT2_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabT2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabT2_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabT2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabT2_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabT2",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabTF_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabTF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabTF_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabTF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabTF_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabTF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabTF_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabTF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stabTF_4": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stabTF",
+        "group": "G6",
+        "result_status": "PASS"
+      },
+      "stand1_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stand1",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "stand1_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stand1",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "stand1_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stand1",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "stand1_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stand1",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "stand2_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stand2",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "stand2_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stand2",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "stand2_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stand2",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "stand2_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "stand2",
+        "group": "G1",
+        "result_status": "PASS"
+      },
+      "swingO1_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO1_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO1_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO1_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO2_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO2_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO2_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO2_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO3_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO3",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO3_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO3",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO3_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO3",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingO3_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingO3",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingOF_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingOF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingOF_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "swingOF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingOF_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingOF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingOF_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingOF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingOF_4": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingOF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingP1_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingP1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingP1_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingP1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingP1_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingP1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingP1_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingP1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingP2_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingP2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingP2_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingP2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingP2_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingP2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingP2_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingP2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingPF_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingPF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingPF_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingPF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingPF_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingPF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingPF_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingPF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingPF_4": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingPF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT1_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT1_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT1_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT1_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT1",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT2_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT2_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT2_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT2_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT2",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT3_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT3",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT3_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT3",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT3_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT3",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingT3_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingT3",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingTF_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "swingTF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingTF_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingTF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingTF_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingTF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingTF_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "swingTF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "swingTF_4": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "back",
+        "active_order": [
+          "back_torso",
+          "back_lower"
+        ],
+        "action_name": "swingTF",
+        "group": "G7",
+        "result_status": "PASS"
+      },
+      "walk1_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk1",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk1_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk1",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk1_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk1",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk1_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk1",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk1_4": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk1",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk2_0": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk2",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk2_1": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk2",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk2_2": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk2",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk2_3": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk2",
+        "group": "G2",
+        "result_status": "PASS"
+      },
+      "walk2_4": {
+        "sample_id": "pink_tanktop_tennis_skirt",
+        "view_mode": "front",
+        "active_order": [
+          "front_torso",
+          "front_arm",
+          "front_lower"
+        ],
+        "action_name": "walk2",
+        "group": "G2",
+        "result_status": "PASS"
+      }
+    }
+  },
+  "default_front_order": [
+    "front_torso",
+    "front_arm",
+    "front_lower"
+  ],
+  "default_back_order": [
+    "back_torso",
+    "back_lower"
+  ]
+}

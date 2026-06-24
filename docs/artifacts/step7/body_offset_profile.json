@@ -1,0 +1,1990 @@
+{
+  "result_status": "PASS",
+  "reference_frame": "stand1_0",
+  "frames": {
+    "alert_0": {
+      "bbox": [
+        2,
+        2,
+        40,
+        62
+      ],
+      "center": [
+        21,
+        32
+      ],
+      "dx": 0,
+      "dy": -1,
+      "action_name": "alert",
+      "group": "G1"
+    },
+    "alert_1": {
+      "bbox": [
+        2,
+        2,
+        40,
+        63
+      ],
+      "center": [
+        21,
+        32
+      ],
+      "dx": 0,
+      "dy": -1,
+      "action_name": "alert",
+      "group": "G1"
+    },
+    "alert_2": {
+      "bbox": [
+        2,
+        2,
+        40,
+        64
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "alert",
+      "group": "G1"
+    },
+    "alert_3": {
+      "bbox": [
+        2,
+        2,
+        40,
+        62
+      ],
+      "center": [
+        21,
+        32
+      ],
+      "dx": 0,
+      "dy": -1,
+      "action_name": "alert",
+      "group": "G1"
+    },
+    "fly_0": {
+      "bbox": [
+        2,
+        2,
+        40,
+        70
+      ],
+      "center": [
+        21,
+        36
+      ],
+      "dx": 0,
+      "dy": 3,
+      "action_name": "fly",
+      "group": "G2"
+    },
+    "fly_1": {
+      "bbox": [
+        2,
+        2,
+        40,
+        70
+      ],
+      "center": [
+        21,
+        36
+      ],
+      "dx": 0,
+      "dy": 3,
+      "action_name": "fly",
+      "group": "G2"
+    },
+    "fly_2": {
+      "bbox": [
+        2,
+        2,
+        40,
+        70
+      ],
+      "center": [
+        21,
+        36
+      ],
+      "dx": 0,
+      "dy": 3,
+      "action_name": "fly",
+      "group": "G2"
+    },
+    "jump_0": {
+      "bbox": [
+        2,
+        2,
+        40,
+        63
+      ],
+      "center": [
+        21,
+        32
+      ],
+      "dx": 0,
+      "dy": -1,
+      "action_name": "jump",
+      "group": "G3"
+    },
+    "jump_1": {
+      "bbox": [
+        2,
+        2,
+        40,
+        63
+      ],
+      "center": [
+        21,
+        32
+      ],
+      "dx": 0,
+      "dy": -1,
+      "action_name": "jump",
+      "group": "G3"
+    },
+    "ladder_0": {
+      "bbox": [
+        2,
+        2,
+        42,
+        63
+      ],
+      "center": [
+        22,
+        32
+      ],
+      "dx": 1,
+      "dy": -1,
+      "action_name": "ladder",
+      "group": "G4"
+    },
+    "ladder_1": {
+      "bbox": [
+        2,
+        2,
+        42,
+        63
+      ],
+      "center": [
+        22,
+        32
+      ],
+      "dx": 1,
+      "dy": -1,
+      "action_name": "ladder",
+      "group": "G4"
+    },
+    "ladder_2": {
+      "bbox": [
+        2,
+        2,
+        42,
+        63
+      ],
+      "center": [
+        22,
+        32
+      ],
+      "dx": 1,
+      "dy": -1,
+      "action_name": "ladder",
+      "group": "G4"
+    },
+    "proneStab_0": {
+      "bbox": [
+        2,
+        2,
+        64,
+        37
+      ],
+      "center": [
+        33,
+        19
+      ],
+      "dx": 12,
+      "dy": -14,
+      "action_name": "proneStab",
+      "group": "G5"
+    },
+    "proneStab_1": {
+      "bbox": [
+        2,
+        2,
+        64,
+        37
+      ],
+      "center": [
+        33,
+        19
+      ],
+      "dx": 12,
+      "dy": -14,
+      "action_name": "proneStab",
+      "group": "G5"
+    },
+    "proneStab_2": {
+      "bbox": [
+        2,
+        2,
+        64,
+        37
+      ],
+      "center": [
+        33,
+        19
+      ],
+      "dx": 12,
+      "dy": -14,
+      "action_name": "proneStab",
+      "group": "G5"
+    },
+    "prone_0": {
+      "bbox": [
+        2,
+        2,
+        64,
+        37
+      ],
+      "center": [
+        33,
+        19
+      ],
+      "dx": 12,
+      "dy": -14,
+      "action_name": "prone",
+      "group": "G5"
+    },
+    "prone_1": {
+      "bbox": [
+        2,
+        2,
+        64,
+        37
+      ],
+      "center": [
+        33,
+        19
+      ],
+      "dx": 12,
+      "dy": -14,
+      "action_name": "prone",
+      "group": "G5"
+    },
+    "rope_0": {
+      "bbox": [
+        2,
+        2,
+        42,
+        66
+      ],
+      "center": [
+        22,
+        34
+      ],
+      "dx": 1,
+      "dy": 1,
+      "action_name": "rope",
+      "group": "G4"
+    },
+    "rope_1": {
+      "bbox": [
+        2,
+        2,
+        42,
+        61
+      ],
+      "center": [
+        22,
+        31
+      ],
+      "dx": 1,
+      "dy": -2,
+      "action_name": "rope",
+      "group": "G4"
+    },
+    "rope_2": {
+      "bbox": [
+        2,
+        2,
+        42,
+        66
+      ],
+      "center": [
+        22,
+        34
+      ],
+      "dx": 1,
+      "dy": 1,
+      "action_name": "rope",
+      "group": "G4"
+    },
+    "shoot1_0": {
+      "bbox": [
+        2,
+        2,
+        48,
+        65
+      ],
+      "center": [
+        25,
+        33
+      ],
+      "dx": 4,
+      "dy": 0,
+      "action_name": "shoot1",
+      "group": "G6"
+    },
+    "shoot1_1": {
+      "bbox": [
+        2,
+        2,
+        48,
+        65
+      ],
+      "center": [
+        25,
+        33
+      ],
+      "dx": 4,
+      "dy": 0,
+      "action_name": "shoot1",
+      "group": "G6"
+    },
+    "shoot1_2": {
+      "bbox": [
+        2,
+        2,
+        48,
+        65
+      ],
+      "center": [
+        25,
+        33
+      ],
+      "dx": 4,
+      "dy": 0,
+      "action_name": "shoot1",
+      "group": "G6"
+    },
+    "shoot1_3": {
+      "bbox": [
+        2,
+        2,
+        48,
+        65
+      ],
+      "center": [
+        25,
+        33
+      ],
+      "dx": 4,
+      "dy": 0,
+      "action_name": "shoot1",
+      "group": "G6"
+    },
+    "shoot2_0": {
+      "bbox": [
+        2,
+        2,
+        40,
+        64
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "shoot2",
+      "group": "G6"
+    },
+    "shoot2_1": {
+      "bbox": [
+        2,
+        2,
+        40,
+        64
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "shoot2",
+      "group": "G6"
+    },
+    "shoot2_2": {
+      "bbox": [
+        2,
+        2,
+        40,
+        64
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "shoot2",
+      "group": "G6"
+    },
+    "shoot2_3": {
+      "bbox": [
+        2,
+        2,
+        40,
+        64
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "shoot2",
+      "group": "G6"
+    },
+    "shoot2_4": {
+      "bbox": [
+        2,
+        2,
+        40,
+        64
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "shoot2",
+      "group": "G6"
+    },
+    "shoot2_5": {
+      "bbox": [
+        2,
+        2,
+        40,
+        64
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "shoot2",
+      "group": "G6"
+    },
+    "shootF_0": {
+      "bbox": [
+        2,
+        2,
+        49,
+        65
+      ],
+      "center": [
+        25,
+        33
+      ],
+      "dx": 4,
+      "dy": 0,
+      "action_name": "shootF",
+      "group": "G6"
+    },
+    "shootF_1": {
+      "bbox": [
+        2,
+        2,
+        52,
+        64
+      ],
+      "center": [
+        27,
+        33
+      ],
+      "dx": 6,
+      "dy": 0,
+      "action_name": "shootF",
+      "group": "G6"
+    },
+    "shootF_2": {
+      "bbox": [
+        2,
+        2,
+        52,
+        64
+      ],
+      "center": [
+        27,
+        33
+      ],
+      "dx": 6,
+      "dy": 0,
+      "action_name": "shootF",
+      "group": "G6"
+    },
+    "shootF_3": {
+      "bbox": [
+        2,
+        2,
+        49,
+        65
+      ],
+      "center": [
+        25,
+        33
+      ],
+      "dx": 4,
+      "dy": 0,
+      "action_name": "shootF",
+      "group": "G6"
+    },
+    "sit_0": {
+      "bbox": [
+        2,
+        2,
+        40,
+        58
+      ],
+      "center": [
+        21,
+        30
+      ],
+      "dx": 0,
+      "dy": -3,
+      "action_name": "sit",
+      "group": "G3"
+    },
+    "sit_1": {
+      "bbox": [
+        2,
+        2,
+        40,
+        58
+      ],
+      "center": [
+        21,
+        30
+      ],
+      "dx": 0,
+      "dy": -3,
+      "action_name": "sit",
+      "group": "G3"
+    },
+    "stabO1_0": {
+      "bbox": [
+        2,
+        2,
+        47,
+        62
+      ],
+      "center": [
+        24,
+        32
+      ],
+      "dx": 3,
+      "dy": -1,
+      "action_name": "stabO1",
+      "group": "G6"
+    },
+    "stabO1_1": {
+      "bbox": [
+        2,
+        2,
+        54,
+        59
+      ],
+      "center": [
+        28,
+        30
+      ],
+      "dx": 7,
+      "dy": -3,
+      "action_name": "stabO1",
+      "group": "G6"
+    },
+    "stabO1_2": {
+      "bbox": [
+        2,
+        2,
+        47,
+        62
+      ],
+      "center": [
+        24,
+        32
+      ],
+      "dx": 3,
+      "dy": -1,
+      "action_name": "stabO1",
+      "group": "G6"
+    },
+    "stabO2_0": {
+      "bbox": [
+        2,
+        2,
+        47,
+        65
+      ],
+      "center": [
+        24,
+        33
+      ],
+      "dx": 3,
+      "dy": 0,
+      "action_name": "stabO2",
+      "group": "G6"
+    },
+    "stabO2_1": {
+      "bbox": [
+        2,
+        2,
+        56,
+        58
+      ],
+      "center": [
+        29,
+        30
+      ],
+      "dx": 8,
+      "dy": -3,
+      "action_name": "stabO2",
+      "group": "G6"
+    },
+    "stabO2_2": {
+      "bbox": [
+        2,
+        2,
+        47,
+        65
+      ],
+      "center": [
+        24,
+        33
+      ],
+      "dx": 3,
+      "dy": 0,
+      "action_name": "stabO2",
+      "group": "G6"
+    },
+    "stabOF_0": {
+      "bbox": [
+        2,
+        2,
+        41,
+        58
+      ],
+      "center": [
+        21,
+        30
+      ],
+      "dx": 0,
+      "dy": -3,
+      "action_name": "stabOF",
+      "group": "G6"
+    },
+    "stabOF_1": {
+      "bbox": [
+        2,
+        2,
+        53,
+        61
+      ],
+      "center": [
+        27,
+        31
+      ],
+      "dx": 6,
+      "dy": -2,
+      "action_name": "stabOF",
+      "group": "G6"
+    },
+    "stabOF_2": {
+      "bbox": [
+        2,
+        2,
+        58,
+        57
+      ],
+      "center": [
+        30,
+        29
+      ],
+      "dx": 9,
+      "dy": -4,
+      "action_name": "stabOF",
+      "group": "G6"
+    },
+    "stabOF_3": {
+      "bbox": [
+        2,
+        2,
+        41,
+        58
+      ],
+      "center": [
+        21,
+        30
+      ],
+      "dx": 0,
+      "dy": -3,
+      "action_name": "stabOF",
+      "group": "G6"
+    },
+    "stabT1_0": {
+      "bbox": [
+        2,
+        2,
+        54,
+        61
+      ],
+      "center": [
+        28,
+        31
+      ],
+      "dx": 7,
+      "dy": -2,
+      "action_name": "stabT1",
+      "group": "G6"
+    },
+    "stabT1_1": {
+      "bbox": [
+        2,
+        2,
+        51,
+        57
+      ],
+      "center": [
+        26,
+        29
+      ],
+      "dx": 5,
+      "dy": -4,
+      "action_name": "stabT1",
+      "group": "G6"
+    },
+    "stabT1_2": {
+      "bbox": [
+        2,
+        2,
+        58,
+        56
+      ],
+      "center": [
+        30,
+        29
+      ],
+      "dx": 9,
+      "dy": -4,
+      "action_name": "stabT1",
+      "group": "G6"
+    },
+    "stabT1_3": {
+      "bbox": [
+        2,
+        2,
+        54,
+        61
+      ],
+      "center": [
+        28,
+        31
+      ],
+      "dx": 7,
+      "dy": -2,
+      "action_name": "stabT1",
+      "group": "G6"
+    },
+    "stabT2_0": {
+      "bbox": [
+        2,
+        2,
+        45,
+        62
+      ],
+      "center": [
+        23,
+        32
+      ],
+      "dx": 2,
+      "dy": -1,
+      "action_name": "stabT2",
+      "group": "G6"
+    },
+    "stabT2_1": {
+      "bbox": [
+        2,
+        2,
+        55,
+        55
+      ],
+      "center": [
+        28,
+        28
+      ],
+      "dx": 7,
+      "dy": -5,
+      "action_name": "stabT2",
+      "group": "G6"
+    },
+    "stabT2_2": {
+      "bbox": [
+        2,
+        2,
+        59,
+        56
+      ],
+      "center": [
+        30,
+        29
+      ],
+      "dx": 9,
+      "dy": -4,
+      "action_name": "stabT2",
+      "group": "G6"
+    },
+    "stabT2_3": {
+      "bbox": [
+        2,
+        2,
+        45,
+        62
+      ],
+      "center": [
+        23,
+        32
+      ],
+      "dx": 2,
+      "dy": -1,
+      "action_name": "stabT2",
+      "group": "G6"
+    },
+    "stabTF_0": {
+      "bbox": [
+        2,
+        2,
+        51,
+        60
+      ],
+      "center": [
+        26,
+        31
+      ],
+      "dx": 5,
+      "dy": -2,
+      "action_name": "stabTF",
+      "group": "G6"
+    },
+    "stabTF_1": {
+      "bbox": [
+        2,
+        2,
+        48,
+        59
+      ],
+      "center": [
+        25,
+        30
+      ],
+      "dx": 4,
+      "dy": -3,
+      "action_name": "stabTF",
+      "group": "G6"
+    },
+    "stabTF_2": {
+      "bbox": [
+        2,
+        2,
+        52,
+        75
+      ],
+      "center": [
+        27,
+        38
+      ],
+      "dx": 6,
+      "dy": 5,
+      "action_name": "stabTF",
+      "group": "G6"
+    },
+    "stabTF_3": {
+      "bbox": [
+        2,
+        2,
+        58,
+        56
+      ],
+      "center": [
+        30,
+        29
+      ],
+      "dx": 9,
+      "dy": -4,
+      "action_name": "stabTF",
+      "group": "G6"
+    },
+    "stabTF_4": {
+      "bbox": [
+        2,
+        2,
+        51,
+        60
+      ],
+      "center": [
+        26,
+        31
+      ],
+      "dx": 5,
+      "dy": -2,
+      "action_name": "stabTF",
+      "group": "G6"
+    },
+    "stand1_0": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "stand1",
+      "group": "G1"
+    },
+    "stand1_1": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "stand1",
+      "group": "G1"
+    },
+    "stand1_2": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "stand1",
+      "group": "G1"
+    },
+    "stand1_3": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "stand1",
+      "group": "G1"
+    },
+    "stand2_0": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "stand2",
+      "group": "G1"
+    },
+    "stand2_1": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "stand2",
+      "group": "G1"
+    },
+    "stand2_2": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "stand2",
+      "group": "G1"
+    },
+    "stand2_3": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "stand2",
+      "group": "G1"
+    },
+    "swingO1_0": {
+      "bbox": [
+        2,
+        2,
+        46,
+        59
+      ],
+      "center": [
+        24,
+        30
+      ],
+      "dx": 3,
+      "dy": -3,
+      "action_name": "swingO1",
+      "group": "G7"
+    },
+    "swingO1_1": {
+      "bbox": [
+        2,
+        2,
+        40,
+        64
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "swingO1",
+      "group": "G7"
+    },
+    "swingO1_2": {
+      "bbox": [
+        2,
+        2,
+        57,
+        58
+      ],
+      "center": [
+        29,
+        30
+      ],
+      "dx": 8,
+      "dy": -3,
+      "action_name": "swingO1",
+      "group": "G7"
+    },
+    "swingO1_3": {
+      "bbox": [
+        2,
+        2,
+        46,
+        59
+      ],
+      "center": [
+        24,
+        30
+      ],
+      "dx": 3,
+      "dy": -3,
+      "action_name": "swingO1",
+      "group": "G7"
+    },
+    "swingO2_0": {
+      "bbox": [
+        2,
+        2,
+        45,
+        65
+      ],
+      "center": [
+        23,
+        33
+      ],
+      "dx": 2,
+      "dy": 0,
+      "action_name": "swingO2",
+      "group": "G7"
+    },
+    "swingO2_1": {
+      "bbox": [
+        2,
+        2,
+        41,
+        63
+      ],
+      "center": [
+        21,
+        32
+      ],
+      "dx": 0,
+      "dy": -1,
+      "action_name": "swingO2",
+      "group": "G7"
+    },
+    "swingO2_2": {
+      "bbox": [
+        2,
+        2,
+        49,
+        60
+      ],
+      "center": [
+        25,
+        31
+      ],
+      "dx": 4,
+      "dy": -2,
+      "action_name": "swingO2",
+      "group": "G7"
+    },
+    "swingO2_3": {
+      "bbox": [
+        2,
+        2,
+        45,
+        65
+      ],
+      "center": [
+        23,
+        33
+      ],
+      "dx": 2,
+      "dy": 0,
+      "action_name": "swingO2",
+      "group": "G7"
+    },
+    "swingO3_0": {
+      "bbox": [
+        2,
+        2,
+        53,
+        60
+      ],
+      "center": [
+        27,
+        31
+      ],
+      "dx": 6,
+      "dy": -2,
+      "action_name": "swingO3",
+      "group": "G7"
+    },
+    "swingO3_1": {
+      "bbox": [
+        2,
+        2,
+        43,
+        61
+      ],
+      "center": [
+        22,
+        31
+      ],
+      "dx": 1,
+      "dy": -2,
+      "action_name": "swingO3",
+      "group": "G7"
+    },
+    "swingO3_2": {
+      "bbox": [
+        2,
+        2,
+        46,
+        59
+      ],
+      "center": [
+        24,
+        30
+      ],
+      "dx": 3,
+      "dy": -3,
+      "action_name": "swingO3",
+      "group": "G7"
+    },
+    "swingO3_3": {
+      "bbox": [
+        2,
+        2,
+        53,
+        60
+      ],
+      "center": [
+        27,
+        31
+      ],
+      "dx": 6,
+      "dy": -2,
+      "action_name": "swingO3",
+      "group": "G7"
+    },
+    "swingOF_0": {
+      "bbox": [
+        2,
+        2,
+        50,
+        59
+      ],
+      "center": [
+        26,
+        30
+      ],
+      "dx": 5,
+      "dy": -3,
+      "action_name": "swingOF",
+      "group": "G7"
+    },
+    "swingOF_1": {
+      "bbox": [
+        2,
+        2,
+        42,
+        69
+      ],
+      "center": [
+        22,
+        35
+      ],
+      "dx": 1,
+      "dy": 2,
+      "action_name": "swingOF",
+      "group": "G7"
+    },
+    "swingOF_2": {
+      "bbox": [
+        2,
+        2,
+        40,
+        67
+      ],
+      "center": [
+        21,
+        34
+      ],
+      "dx": 0,
+      "dy": 1,
+      "action_name": "swingOF",
+      "group": "G7"
+    },
+    "swingOF_3": {
+      "bbox": [
+        2,
+        2,
+        56,
+        54
+      ],
+      "center": [
+        29,
+        28
+      ],
+      "dx": 8,
+      "dy": -5,
+      "action_name": "swingOF",
+      "group": "G7"
+    },
+    "swingOF_4": {
+      "bbox": [
+        2,
+        2,
+        50,
+        59
+      ],
+      "center": [
+        26,
+        30
+      ],
+      "dx": 5,
+      "dy": -3,
+      "action_name": "swingOF",
+      "group": "G7"
+    },
+    "swingP1_0": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "swingP1",
+      "group": "G7"
+    },
+    "swingP1_1": {
+      "bbox": [
+        2,
+        2,
+        42,
+        63
+      ],
+      "center": [
+        22,
+        32
+      ],
+      "dx": 1,
+      "dy": -1,
+      "action_name": "swingP1",
+      "group": "G7"
+    },
+    "swingP1_2": {
+      "bbox": [
+        2,
+        2,
+        57,
+        58
+      ],
+      "center": [
+        29,
+        30
+      ],
+      "dx": 8,
+      "dy": -3,
+      "action_name": "swingP1",
+      "group": "G7"
+    },
+    "swingP1_3": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "swingP1",
+      "group": "G7"
+    },
+    "swingP2_0": {
+      "bbox": [
+        2,
+        2,
+        46,
+        65
+      ],
+      "center": [
+        24,
+        33
+      ],
+      "dx": 3,
+      "dy": 0,
+      "action_name": "swingP2",
+      "group": "G7"
+    },
+    "swingP2_1": {
+      "bbox": [
+        2,
+        2,
+        40,
+        63
+      ],
+      "center": [
+        21,
+        32
+      ],
+      "dx": 0,
+      "dy": -1,
+      "action_name": "swingP2",
+      "group": "G7"
+    },
+    "swingP2_2": {
+      "bbox": [
+        2,
+        2,
+        58,
+        57
+      ],
+      "center": [
+        30,
+        29
+      ],
+      "dx": 9,
+      "dy": -4,
+      "action_name": "swingP2",
+      "group": "G7"
+    },
+    "swingP2_3": {
+      "bbox": [
+        2,
+        2,
+        46,
+        65
+      ],
+      "center": [
+        24,
+        33
+      ],
+      "dx": 3,
+      "dy": 0,
+      "action_name": "swingP2",
+      "group": "G7"
+    },
+    "swingPF_0": {
+      "bbox": [
+        2,
+        2,
+        51,
+        60
+      ],
+      "center": [
+        26,
+        31
+      ],
+      "dx": 5,
+      "dy": -2,
+      "action_name": "swingPF",
+      "group": "G7"
+    },
+    "swingPF_1": {
+      "bbox": [
+        2,
+        2,
+        48,
+        59
+      ],
+      "center": [
+        25,
+        30
+      ],
+      "dx": 4,
+      "dy": -3,
+      "action_name": "swingPF",
+      "group": "G7"
+    },
+    "swingPF_2": {
+      "bbox": [
+        2,
+        2,
+        42,
+        75
+      ],
+      "center": [
+        22,
+        38
+      ],
+      "dx": 1,
+      "dy": 5,
+      "action_name": "swingPF",
+      "group": "G7"
+    },
+    "swingPF_3": {
+      "bbox": [
+        2,
+        2,
+        41,
+        58
+      ],
+      "center": [
+        21,
+        30
+      ],
+      "dx": 0,
+      "dy": -3,
+      "action_name": "swingPF",
+      "group": "G7"
+    },
+    "swingPF_4": {
+      "bbox": [
+        2,
+        2,
+        51,
+        60
+      ],
+      "center": [
+        26,
+        31
+      ],
+      "dx": 5,
+      "dy": -2,
+      "action_name": "swingPF",
+      "group": "G7"
+    },
+    "swingT1_0": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "swingT1",
+      "group": "G7"
+    },
+    "swingT1_1": {
+      "bbox": [
+        2,
+        2,
+        42,
+        63
+      ],
+      "center": [
+        22,
+        32
+      ],
+      "dx": 1,
+      "dy": -1,
+      "action_name": "swingT1",
+      "group": "G7"
+    },
+    "swingT1_2": {
+      "bbox": [
+        2,
+        2,
+        57,
+        58
+      ],
+      "center": [
+        29,
+        30
+      ],
+      "dx": 8,
+      "dy": -3,
+      "action_name": "swingT1",
+      "group": "G7"
+    },
+    "swingT1_3": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "swingT1",
+      "group": "G7"
+    },
+    "swingT2_0": {
+      "bbox": [
+        2,
+        2,
+        40,
+        63
+      ],
+      "center": [
+        21,
+        32
+      ],
+      "dx": 0,
+      "dy": -1,
+      "action_name": "swingT2",
+      "group": "G7"
+    },
+    "swingT2_1": {
+      "bbox": [
+        2,
+        2,
+        41,
+        63
+      ],
+      "center": [
+        21,
+        32
+      ],
+      "dx": 0,
+      "dy": -1,
+      "action_name": "swingT2",
+      "group": "G7"
+    },
+    "swingT2_2": {
+      "bbox": [
+        2,
+        2,
+        58,
+        57
+      ],
+      "center": [
+        30,
+        29
+      ],
+      "dx": 9,
+      "dy": -4,
+      "action_name": "swingT2",
+      "group": "G7"
+    },
+    "swingT2_3": {
+      "bbox": [
+        2,
+        2,
+        40,
+        63
+      ],
+      "center": [
+        21,
+        32
+      ],
+      "dx": 0,
+      "dy": -1,
+      "action_name": "swingT2",
+      "group": "G7"
+    },
+    "swingT3_0": {
+      "bbox": [
+        2,
+        2,
+        40,
+        63
+      ],
+      "center": [
+        21,
+        32
+      ],
+      "dx": 0,
+      "dy": -1,
+      "action_name": "swingT3",
+      "group": "G7"
+    },
+    "swingT3_1": {
+      "bbox": [
+        2,
+        2,
+        46,
+        57
+      ],
+      "center": [
+        24,
+        29
+      ],
+      "dx": 3,
+      "dy": -4,
+      "action_name": "swingT3",
+      "group": "G7"
+    },
+    "swingT3_2": {
+      "bbox": [
+        2,
+        2,
+        53,
+        60
+      ],
+      "center": [
+        27,
+        31
+      ],
+      "dx": 6,
+      "dy": -2,
+      "action_name": "swingT3",
+      "group": "G7"
+    },
+    "swingT3_3": {
+      "bbox": [
+        2,
+        2,
+        40,
+        63
+      ],
+      "center": [
+        21,
+        32
+      ],
+      "dx": 0,
+      "dy": -1,
+      "action_name": "swingT3",
+      "group": "G7"
+    },
+    "swingTF_0": {
+      "bbox": [
+        2,
+        2,
+        42,
+        65
+      ],
+      "center": [
+        22,
+        33
+      ],
+      "dx": 1,
+      "dy": 0,
+      "action_name": "swingTF",
+      "group": "G7"
+    },
+    "swingTF_1": {
+      "bbox": [
+        2,
+        2,
+        40,
+        66
+      ],
+      "center": [
+        21,
+        34
+      ],
+      "dx": 0,
+      "dy": 1,
+      "action_name": "swingTF",
+      "group": "G7"
+    },
+    "swingTF_2": {
+      "bbox": [
+        2,
+        2,
+        44,
+        63
+      ],
+      "center": [
+        23,
+        32
+      ],
+      "dx": 2,
+      "dy": -1,
+      "action_name": "swingTF",
+      "group": "G7"
+    },
+    "swingTF_3": {
+      "bbox": [
+        2,
+        2,
+        58,
+        57
+      ],
+      "center": [
+        30,
+        29
+      ],
+      "dx": 9,
+      "dy": -4,
+      "action_name": "swingTF",
+      "group": "G7"
+    },
+    "swingTF_4": {
+      "bbox": [
+        2,
+        2,
+        42,
+        65
+      ],
+      "center": [
+        22,
+        33
+      ],
+      "dx": 1,
+      "dy": 0,
+      "action_name": "swingTF",
+      "group": "G7"
+    },
+    "walk1_0": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "walk1",
+      "group": "G2"
+    },
+    "walk1_1": {
+      "bbox": [
+        2,
+        2,
+        40,
+        64
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "walk1",
+      "group": "G2"
+    },
+    "walk1_2": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "walk1",
+      "group": "G2"
+    },
+    "walk1_3": {
+      "bbox": [
+        2,
+        2,
+        40,
+        64
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "walk1",
+      "group": "G2"
+    },
+    "walk1_4": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "walk1",
+      "group": "G2"
+    },
+    "walk2_0": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "walk2",
+      "group": "G2"
+    },
+    "walk2_1": {
+      "bbox": [
+        2,
+        2,
+        40,
+        64
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "walk2",
+      "group": "G2"
+    },
+    "walk2_2": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "walk2",
+      "group": "G2"
+    },
+    "walk2_3": {
+      "bbox": [
+        2,
+        2,
+        40,
+        64
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "walk2",
+      "group": "G2"
+    },
+    "walk2_4": {
+      "bbox": [
+        2,
+        2,
+        40,
+        65
+      ],
+      "center": [
+        21,
+        33
+      ],
+      "dx": 0,
+      "dy": 0,
+      "action_name": "walk2",
+      "group": "G2"
+    }
+  }
+}

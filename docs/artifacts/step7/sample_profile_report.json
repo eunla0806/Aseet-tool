@@ -1,0 +1,43 @@
+{
+  "result_status": "PASS",
+  "samples": {
+    "hoi_poi_tshirt_denim_skirt": {
+      "sample_id": "hoi_poi_tshirt_denim_skirt",
+      "version_dir": "E:\\Aseet tool\\data\\clothing\\layer_split_refs\\top_skirt_sets\\hoi_poi_tshirt_denim_skirt\\v001",
+      "result_status": "PASS",
+      "issues": [],
+      "warnings": [],
+      "source_frame_count": 124,
+      "processed_frame_count": 124,
+      "normalized_png_count": 620,
+      "mask_png_count": 620,
+      "frames_ok": 124,
+      "frames_with_missing_layers": 0,
+      "frames_failed": 0,
+      "intentional_empty_parts": 0,
+      "inactive_by_view_parts": 257
+    },
+    "pink_tanktop_tennis_skirt": {
+      "sample_id": "pink_tanktop_tennis_skirt",
+      "version_dir": "E:\\Aseet tool\\data\\clothing\\layer_split_refs\\top_skirt_sets\\pink_tanktop_tennis_skirt\\v001",
+      "result_status": "PASS",
+      "issues": [],
+      "warnings": [],
+      "source_frame_count": 124,
+      "processed_frame_count": 124,
+      "normalized_png_count": 620,
+      "mask_png_count": 620,
+      "frames_ok": 124,
+      "frames_with_missing_layers": 0,
+      "frames_failed": 0,
+      "intentional_empty_parts": 124,
+      "inactive_by_view_parts": 248
+    }
+  },
+  "summary": {
+    "PASS": 2,
+    "RETRY_AUTO": 0,
+    "NEEDS_NEW_ANCHOR": 0,
+    "OUT_OF_SCOPE": 0
+  }
+}

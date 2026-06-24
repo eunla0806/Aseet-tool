@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+import shutil
 from collections import Counter, defaultdict
 from typing import Dict, Iterable, List, Optional, Tuple
 
@@ -18,6 +19,7 @@ DEFAULT_BODY_TEMPLATE_DIR = os.path.join(ROOT_DIR, "data", "body template")
 DEFAULT_FRAMES_JSON = os.path.join(ROOT_DIR, "src", "data", "frames.json")
 DEFAULT_OUTPUT_DIR = os.path.join(ROOT_DIR, "outputs", "reference_profiles")
 DEFAULT_CONTRACT_DIR = os.path.join(ROOT_DIR, "data", "msw", "contracts")
+DEFAULT_REVIEW_DIR = os.path.join(ROOT_DIR, "docs", "artifacts", "step7")
 
 STATUS_PASS = "PASS"
 STATUS_RETRY_AUTO = "RETRY_AUTO"
@@ -420,8 +422,178 @@ def build_output_paths(output_dir: str) -> Dict[str, str]:
     }
 
 
-def verify_step7_outputs(output_paths: Dict[str, str]) -> None:
-    for key, path in output_paths.items():
+def build_contract_paths(contract_dir: str) -> Dict[str, str]:
+    return {
+        "design_lock": os.path.join(contract_dir, "design_lock.json"),
+        "anchor_registry": os.path.join(contract_dir, "anchor_registry.json"),
+        "msw_slot_contract": os.path.join(contract_dir, "msw_slot_contract.json"),
+        "action_frame_contract": os.path.join(contract_dir, "action_frame_contract.json"),
+    }
+
+
+def copy_step7_review_artifacts(source_paths: Dict[str, str], review_dir: str) -> Dict[str, str]:
+    ensure_dir(review_dir)
+    copied_paths: Dict[str, str] = {}
+    for key, source_path in source_paths.items():
+        review_path = os.path.join(review_dir, os.path.basename(source_path))
+        shutil.copy2(source_path, review_path)
+        copied_paths[key] = review_path
+    return copied_paths
+
+
+def summarize_sample_statuses(samples: List[dict]) -> Dict[str, int]:
+    summary = {
+        STATUS_PASS: 0,
+        STATUS_RETRY_AUTO: 0,
+        STATUS_NEEDS_NEW_ANCHOR: 0,
+        STATUS_OUT_OF_SCOPE: 0,
+    }
+    for sample in samples:
+        summary[sample["result_status"]] += 1
+    return summary
+
+
+def build_design_lock(samples: List[dict]) -> dict:
+    sample_ids = [sample["sample_id"] for sample in samples]
+    source_markers = []
+    for sample in samples:
+        source_markers.append(
+            {
+                "sample_id": sample["sample_id"],
+                "structure_type": sample["sample_info"].get("structure_type"),
+                "category": sample["sample_info"].get("category"),
+            }
+        )
+
+    return {
+        "result_status": STATUS_PASS,
+        "baseFrame": "stand1_0",
+        "sourceMarkers": source_markers,
+        "styleKeywords": [
+            "msw_avatar_item_pipeline",
+            "reference_sample_locked",
+            "step7_contract_seed",
+        ],
+        "fixedColors": {
+            "requiresValidation": True,
+            "policy": "reference_sample_based",
+            "sampleIds": sample_ids,
+        },
+        "fixedDetails": {
+            "requiresValidation": True,
+            "policy": "anchor_and_profile_locked",
+            "manualPixelRetouchAllowed": False,
+        },
+        "requiresValidation": True,
+    }
+
+
+def build_anchor_registry(samples: List[dict]) -> dict:
+    sample_statuses = summarize_sample_statuses(samples)
+    group_anchor_status = {
+        "G1": {"anchor_frame": "stand1_0", "status": STATUS_PASS},
+        "G2": {"anchor_frame": "walk1_1", "status": STATUS_PASS},
+        "G3": {"anchor_frame": "jump_0", "status": STATUS_PASS},
+        "G4": {"anchor_frame": None, "status": STATUS_NEEDS_NEW_ANCHOR},
+        "G5": {"anchor_frame": None, "status": STATUS_NEEDS_NEW_ANCHOR},
+        "G6": {"anchor_frame": None, "status": STATUS_NEEDS_NEW_ANCHOR},
+        "G7": {"anchor_frame": None, "status": STATUS_NEEDS_NEW_ANCHOR},
+    }
+
+    return {
+        "result_status": STATUS_PASS,
+        "master_anchor": {
+            "frame_key": "stand1_0",
+            "status": STATUS_PASS,
+            "requiresValidation": True,
+        },
+        "group_anchor_status": group_anchor_status,
+        "sample_status_summary": sample_statuses,
+        "needs_new_anchor_groups": [
+            group_name
+            for group_name, info in group_anchor_status.items()
+            if info["status"] == STATUS_NEEDS_NEW_ANCHOR
+        ],
+        "manualPixelRetouchAllowed": False,
+    }
+
+
+def build_msw_slot_contract(samples: List[dict]) -> dict:
+    sample_ids = [sample["sample_id"] for sample in samples]
+    return {
+        "result_status": STATUS_PASS,
+        "slotModes": {
+            "coat": {"enabled": True, "requiresValidation": True},
+            "pants": {"enabled": True, "requiresValidation": True},
+            "longcoat": {"enabled": True, "requiresValidation": True},
+        },
+        "thumbnailPolicy": {
+            "thumbnailPrefixAllowedOnlyForPreview": True,
+            "thumbnailPrefixAllowedForEquipFields": False,
+        },
+        "ruidPolicy": {
+            "plainRuidRequired": True,
+            "thumbnailRuidAllowedInFinalEquip": False,
+            "requiresValidation": True,
+        },
+        "finalCheckRequired": True,
+        "sampleIds": sample_ids,
+    }
+
+
+def build_action_frame_contract(frame_index: Dict[str, dict]) -> dict:
+    frame_contract = {}
+    for frame_key, metadata in sorted(frame_index.items()):
+        group = metadata.get("group")
+        if group in {"G1", "G2", "G3"}:
+            propagation_status = STATUS_PASS
+        elif group in {"G4", "G5", "G6", "G7"}:
+            propagation_status = STATUS_NEEDS_NEW_ANCHOR
+        else:
+            propagation_status = STATUS_OUT_OF_SCOPE
+
+        frame_contract[frame_key] = {
+            "frame_key": frame_key,
+            "action_name": metadata.get("action_name"),
+            "frame_index": metadata.get("frame_index"),
+            "group": group,
+            "propagation_mode": "auto" if group in {"G1", "G2", "G3"} else "conditional",
+            "propagation_status": propagation_status,
+            "manualPixelRetouchAllowed": False,
+        }
+
+    return {
+        "result_status": STATUS_PASS,
+        "baseFrame": "stand1_0",
+        "frames": frame_contract,
+    }
+
+
+def verify_required_keys(output_key: str, loaded: dict) -> None:
+    if output_key == "body_offset_profile":
+        if "frames" not in loaded or "stand1_0" not in loaded["frames"]:
+            raise RuntimeError("missing_reference_body_frame:stand1_0")
+    if output_key == "msw_slot_contract":
+        slot_modes = loaded.get("slotModes", {})
+        for required_slot in ("coat", "pants", "longcoat"):
+            if required_slot not in slot_modes:
+                raise RuntimeError(f"missing_slot_mode:{required_slot}")
+    if output_key == "action_frame_contract":
+        frames = loaded.get("frames", {})
+        if "stand1_0" not in frames:
+            raise RuntimeError("missing_action_contract_frame:stand1_0")
+    if output_key == "anchor_registry":
+        master_anchor = loaded.get("master_anchor", {})
+        if master_anchor.get("frame_key") != "stand1_0":
+            raise RuntimeError("missing_master_anchor:stand1_0")
+
+
+def verify_step7_outputs(output_paths: Dict[str, str], contract_paths: Dict[str, str]) -> None:
+    merged_paths = {}
+    merged_paths.update(output_paths)
+    merged_paths.update(contract_paths)
+
+    for key, path in merged_paths.items():
         if not os.path.isfile(path):
             raise RuntimeError(f"missing_output:{key}:{path}")
         if os.path.getsize(path) == 0:
@@ -429,9 +601,17 @@ def verify_step7_outputs(output_paths: Dict[str, str]) -> None:
         loaded = load_json(path)
         if not loaded:
             raise RuntimeError(f"invalid_output:{key}:{path}")
+        verify_required_keys(key, loaded)
 
 
-def run(sample_root: str, body_template_dir: str, frames_json_path: str, output_dir: str, contract_dir: str) -> Dict[str, str]:
+def run(
+    sample_root: str,
+    body_template_dir: str,
+    frames_json_path: str,
+    output_dir: str,
+    contract_dir: str,
+    review_dir: str,
+) -> Dict[str, str]:
     ensure_dir(output_dir)
     ensure_dir(contract_dir)
 
@@ -447,15 +627,31 @@ def run(sample_root: str, body_template_dir: str, frames_json_path: str, output_
 
     frame_index = load_frames_index(collected["frames_json_path"])
     output_paths = build_output_paths(output_dir)
+    contract_paths = build_contract_paths(contract_dir)
 
     write_json(output_paths["layer_fit_profile"], build_layer_fit_profile(valid_samples, frame_index))
     write_json(output_paths["layer_mask_profile"], build_layer_mask_profile(valid_samples, frame_index))
     write_json(output_paths["sample_profile_report"], build_sample_profile_report(valid_samples))
     write_json(output_paths["body_offset_profile"], build_body_offset_profile(collected["body_template_paths"], frame_index))
     write_json(output_paths["z_order_profile"], build_z_order_profile(valid_samples, frame_index))
+    write_json(contract_paths["design_lock"], build_design_lock(valid_samples))
+    write_json(contract_paths["anchor_registry"], build_anchor_registry(valid_samples))
+    write_json(contract_paths["msw_slot_contract"], build_msw_slot_contract(valid_samples))
+    write_json(contract_paths["action_frame_contract"], build_action_frame_contract(frame_index))
 
-    verify_step7_outputs(output_paths)
-    return output_paths
+    verify_step7_outputs(output_paths, contract_paths)
+    review_source_paths = {}
+    review_source_paths.update(output_paths)
+    review_source_paths.update(contract_paths)
+    review_paths = copy_step7_review_artifacts(review_source_paths, review_dir)
+    review_output_paths = {key: review_paths[key] for key in output_paths}
+    review_contract_paths = {key: review_paths[key] for key in contract_paths}
+    verify_step7_outputs(review_output_paths, review_contract_paths)
+
+    result_paths = {}
+    result_paths.update(output_paths)
+    result_paths.update(contract_paths)
+    return result_paths
 
 
 def main() -> int:
@@ -465,6 +661,7 @@ def main() -> int:
     parser.add_argument("--frames-json", default=DEFAULT_FRAMES_JSON)
     parser.add_argument("--output-dir", default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--contract-dir", default=DEFAULT_CONTRACT_DIR)
+    parser.add_argument("--review-dir", default=DEFAULT_REVIEW_DIR)
     args = parser.parse_args()
 
     output_paths = run(
@@ -473,6 +670,7 @@ def main() -> int:
         frames_json_path=args.frames_json,
         output_dir=args.output_dir,
         contract_dir=args.contract_dir,
+        review_dir=args.review_dir,
     )
     print(json.dumps(output_paths, indent=2, ensure_ascii=False))
     return 0
